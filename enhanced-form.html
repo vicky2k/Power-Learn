@@ -1,0 +1,86 @@
+
+
+<h2>A Table listing Country, Capital City and Currency with a  Data Capture Form for Comments</h2>
+<img src="./World Map.png" alt="A Map of the World in the office" width="150" height="150">
+
+<ul>
+  <li>Nigeria, Abuja, Naira</li>
+  <li>United States, Washington DC, US Dollars</li>
+  <li>Japan, Tokyo, Yen</li>
+  <li>Germany, Berlin, Euro</li>
+    <li>United Kingdom, London, Pound Sterling</li>
+
+</ul>
+
+    
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Country</th>
+      <th>Capital City</th>
+      <th>Currency</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+                <td>Nigeria</td>
+                <td>Abuja</td>
+                <td>Naira</td>
+            </tr>
+            <tr>
+                <td>United States</td>
+                <td>Washington DC</td>
+                <td>US Dollars</td>
+            </tr>
+<tr>
+                <td>Japan</td>
+                <td>Tokyo</td>
+                <td>Yen</td>
+            </tr>
+
+
+<tr>
+                <td>Germany</td>
+                <td>Berlin</td>
+                <td>Euro</td>
+            <tr>
+                <td>United Kingdom</td>
+                <td>London</td>
+                <td>Pound Sterling</td>
+            </tr>
+  </tbody>
+</table>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Capture Form</title>
+</head>
+<body>
+    <h2>Data Capture Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required autocomplete="off"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required autocomplete="email"><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="Enter your age" required min="1" max="120"><br><br>
+
+        <label for="website">Website:</label>
+        <input type="url" id="website" name="website" placeholder="Enter your website URL" autocomplete="url"><br><br>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" placeholder="Enter your comments" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="readonlyField">Readonly Field:</label>
+        <input type="text" id="readonlyField" name="readonlyField" value="This is readonly" readonly><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
